@@ -24,7 +24,7 @@ jobs:
         run: make test
       - name: test
         env:
-          DATABRICKS_KEY: ${{ secrets.DATABRICKS_TOKEN }}
+          DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
           SERVER_HOSTNAME: ${{ secrets.SERVER_HOSTNAME }}
           HTTP_PATH: ${{ secrets.HTTP_PATH }}
         run: make test
