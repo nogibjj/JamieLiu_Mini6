@@ -1,4 +1,4 @@
-name: ids_mini6
+name: CI
 on:
   push:
     branches: ["main"]
@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: ids_mini6
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
