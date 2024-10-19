@@ -21,8 +21,6 @@ jobs:
       - name: format
         run: make format
       - name: test
-        run: make test
-      - name: test
         env:
           DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
           SERVER_HOSTNAME: ${{ secrets.SERVER_HOSTNAME }}
