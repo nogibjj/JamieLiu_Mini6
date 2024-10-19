@@ -1,4 +1,4 @@
-name: CI
+name: ids_mini6
 on:
   push:
     branches: ["main"]

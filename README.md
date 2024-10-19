@@ -1,5 +1,7 @@
 # JamieLiu_Mini6
 
+[![CI](https://github.com/nogibjj/JamieLiu_Mini6/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/JamieLiu_Mini6/actions/workflows/cicd.yml)
+
 ## Overview
 
 This project involves querying a dataset about alcohol consumption using Databricks. The dataset contains information about different countries and their alcohol consumption in terms of beer, spirit, and wine servings, as well as the total litres of pure alcohol consumed.
