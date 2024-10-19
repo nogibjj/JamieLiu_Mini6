@@ -24,7 +24,7 @@ def test_load():
 def test_query():
     """test query"""
     test3 = query()
-    assert test3 == "Query sucessful"
+    assert test3 == "Query successful"
 
 
 if __name__ == "__main__":
