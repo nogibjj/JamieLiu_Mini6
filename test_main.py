@@ -31,4 +31,3 @@ if __name__ == "__main__":
     test_extract()
     test_load()
     test_query()
-    

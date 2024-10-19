@@ -42,7 +42,7 @@ def query():
     with sql.connect(
         server_hostname=os.getenv("SERVER_HOSTNAME"),
         http_path=os.getenv("HTTP_PATH"),
-        access_token=os.getenv("DATABRICKS_KEY"),
+        access_token=os.getenv("DATABRICKS_TOKEN"),
     ) as connection:
         with connection.cursor() as cursor:
 
