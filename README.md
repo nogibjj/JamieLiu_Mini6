@@ -52,7 +52,7 @@ The complex query in the project performs the following operations:
 - A `.env` file with the following variables:
   - `SERVER_HOSTNAME`: Databricks server hostname
   - `HTTP_PATH`: Databricks HTTP path
-  - `DATABRICKS_KEY`: Access token for authentication
+  - `DATABRICKS_TOKEN`: Access token for authentication
 
 ### Running the Script
 
