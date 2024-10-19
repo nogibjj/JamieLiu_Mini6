@@ -18,9 +18,13 @@ jobs:
         run: make install
       - name: lint
         run: make lint
-      - name: test
-        run: make test
       - name: format
         run: make format
-      - name: deploy
-        run: make deploy
+      - name: test
+        run: make test
+      - name: test
+        env:
+          DATABRICKS_KEY: ${{ secrets.DATABRICKS_TOKEN }}
+          SERVER_HOSTNAME: ${{ secrets.SERVER_HOSTNAME }}
+          HTTP_PATH: ${{ secrets.HTTP_PATH }}
+        run: make test
